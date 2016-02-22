@@ -1,10 +1,4 @@
-/**
- * 
- */
 package cse360assign3;
-
-import static org.junit.Assert.*;
-import org.junit.Test;
 
 /**
  * @author Sriram Poondi Chinappa 
@@ -12,10 +6,14 @@ import org.junit.Test;
  * @ID 1209360616
  *
  */
-public class testCalculator {
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class CalculatorTest {
 
 	@Test
-	public void Calculator_Test() {
+	public void testCalculator() {
 		// Test for constructor.
 		Calculator cal = new Calculator();
 		assertNotNull(cal);
